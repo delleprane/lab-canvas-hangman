@@ -63,7 +63,8 @@ describe('Hangman Game', () => {
     });
 
     it('should return a string', () => {
-      expect(typeof hangman.pickWord()).toBe('string');
+      //Inserido array para teste
+      expect(typeof hangman.pickWord(testWords)).toBe('string');
     });
   });
 
